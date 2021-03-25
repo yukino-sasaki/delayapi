@@ -71,16 +71,9 @@ button.addEventListener('click', () => {
                     span.textContent = json[i].company;
                     li.appendChild(elem)
 
-                } /* else if (json[i].name.indexOf(research.value)) {
-
-                    y++
-                    console.log(y)
-                    return y
-                } */
+                }
             }
-            /* if (y == 1) {
-                yy.textContent = "該当なし"
-            } */
+
         })
 
 })
